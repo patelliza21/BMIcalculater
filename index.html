@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>BMI Calculator</h1>
+
+<input type="number" id="age" placeholder="Enter Age">
+
+<select id="gender">
+    <option>Male</option>
+    <option>Female</option>
+</select>
+
+<input type="number" id="height" placeholder="Height (cm)">
+<input type="number" id="weight" placeholder="Weight (kg)">
+
+<button onclick="calculateBMI()">Calculate BMI</button>
+
+<h2 id="result"></h2>
+<h3 id="category"></h3>
+
+<p class="hint">Tip: Enter positive values for height and weight (height is in cm).</p>
+
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
+
+
